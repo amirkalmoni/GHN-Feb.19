@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GHN authentication final</string>
+    <string name="logout">Logout</string>
+    <string name="textView2"></string>
+</resources>

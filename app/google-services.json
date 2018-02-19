@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "482346014585",
+    "firebase_url": "https://ghn-authentication.firebaseio.com",
+    "project_id": "ghn-authentication",
+    "storage_bucket": "ghn-authentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482346014585:android:7fe6ca1e9b6f9d75",
+        "android_client_info": {
+          "package_name": "com.example.amirkalmoni.ghnauthenticationfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482346014585-la7vq0sha8hc38v9j9b1t77ira35jtrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCibbH9NC4NZ6ieNSiM8-TTDhR34N76pTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482346014585:android:3945de39d35f6147",
+        "android_client_info": {
+          "package_name": "com.amirkalmoni.ghnauthenticationfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482346014585-la7vq0sha8hc38v9j9b1t77ira35jtrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCibbH9NC4NZ6ieNSiM8-TTDhR34N76pTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

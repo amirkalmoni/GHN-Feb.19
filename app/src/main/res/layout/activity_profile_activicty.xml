@@ -27,6 +27,8 @@
             android:text="Large Text"
             />
 
+
+
         <Button
             android:id="@+id/buttonLogout"
             android:layout_width="wrap_content"
@@ -34,5 +36,31 @@
             android:text="@string/logout"
             android:layout_gravity="center_horizontal"
              />
+
+
+        <EditText
+            android:id="@+id/room_name_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:inputType="" />
+
+        <Button
+            android:id="@+id/btn_add_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|bottom"
+            android:text="Add room"
+            android:textStyle="normal|bold|italic"
+            android:visibility="visible" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+
+            android:layout_above="@+id/room_name_edittext" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

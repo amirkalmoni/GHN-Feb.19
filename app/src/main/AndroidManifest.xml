@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".loginactivicty" />
         <activity android:name=".ProfileActivicty" />
-        <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ChatRoomActivity"></activity>
     </application>
 
 </manifest>

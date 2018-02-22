@@ -75,6 +75,7 @@ public class ProfileActivicty extends AppCompatActivity implements View.OnClickL
         listView.setAdapter(arrayAdapter);
         buttonLogout.setOnClickListener(this);
         add_room.setOnClickListener(this);
+
         listView.setOnItemClickListener((new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -157,25 +158,6 @@ public class ProfileActivicty extends AppCompatActivity implements View.OnClickL
 
         builder.show();
     }
-
-
-
-//    root.addValueEventListener(new ValueEventListener() {
-//        @Override
-//        public void onDataChange(DataSnapshot dataSnapshot) {
-//
-//            Set<String> set = new HashSet<String>();
-//            Iterator i = dataSnapshot.getChildren().iterator();
-//
-//            while (i.hasNext()){
-//                set.add(((DataSnapshot)i.next()).getKey());
-//            }
-//
-//            list_of_rooms.clear();
-//            list_of_rooms.addAll(set);
-//
-//            arrayAdapter.notifyDataSetChanged();
-//        }
 
 
 

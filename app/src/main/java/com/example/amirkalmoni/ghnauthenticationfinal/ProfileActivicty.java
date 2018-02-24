@@ -72,6 +72,9 @@ public class ProfileActivicty extends AppCompatActivity implements View.OnClickL
 
         arrayAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,list_of_rooms);
 
+
+        request_user_name();
+
         listView.setAdapter(arrayAdapter);
         buttonLogout.setOnClickListener(this);
         add_room.setOnClickListener(this);

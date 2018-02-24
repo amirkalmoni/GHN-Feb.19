@@ -28,14 +28,13 @@
             />
 
 
-
         <Button
             android:id="@+id/buttonLogout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/logout"
             android:layout_gravity="center_horizontal"
-             />
+            android:gravity="right|center_vertical"
+            android:text="@string/logout" />
 
 
         <EditText
@@ -44,7 +43,6 @@
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-
             android:inputType="" />
 
         <Button

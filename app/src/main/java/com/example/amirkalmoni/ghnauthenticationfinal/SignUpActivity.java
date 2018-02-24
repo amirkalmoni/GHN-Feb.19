@@ -31,7 +31,9 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signupactivity);
 
+
         firebaseAuth = FirebaseAuth.getInstance();
+        //firebaseAuth.deleteUserAsync(ui)
         if(firebaseAuth.getCurrentUser() != null)
         {
             finish();
